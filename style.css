@@ -12,6 +12,20 @@ body {
   height: 100vh;
 }
 
+.container {
+    width: 80%; /* 80% of the viewport width */
+    max-width: 1000px; /* Maximum width of 1000 pixels */
+    margin: 0 auto; /* Center the container */
+}
+
+@media (max-width: 768px) {
+    /* Styles for screens smaller than 768px */
+    .container {
+        width: 90%; /* Adjust width for smaller screens */
+    }
+}
+
+
 h1{
   margin-bottom: 100px;
 }
